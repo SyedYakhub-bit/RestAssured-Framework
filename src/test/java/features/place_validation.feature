@@ -11,7 +11,7 @@ Feature: Add Place API Validation
 
     Examples:
       | name       | language | address  |
-    #|Syed Yakhub |    Urdu    | Near Noorani Masjid |
+    |Syed Yakhub |    Urdu    | Near Noorani Masjid |
       | Syed Usman | English  | Batawadi |
     #|Syed Siddiq |   Kannada  |    Banglore         |
 
