@@ -80,7 +80,6 @@ public class AddPlaceTest extends Utility {
     @Given("building the delete place payload using place_id")
     public void building_the_delete_place_payload_using_place_id() throws IOException {
         request = Utility.RequestSetUp().body(data.deletePlacePayload(place_id));
-        System.out.println("This is to Check the git push and pull");
     }
 
 }
