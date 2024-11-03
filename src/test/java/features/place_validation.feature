@@ -10,10 +10,10 @@ Feature: Add Place API Validation
     And verify that the place_id maps to "<name>" using "getPlaceAPI"
 
     Examples:
-      | name       | language | address  |
-    |Syed Yakhub |    Urdu    | Near Noorani Masjid |
-      | Syed Usman | English  | Batawadi |
-    #|Syed Siddiq |   Kannada  |    Banglore         |
+      | name        | language | address             |
+      | Syed Yakhub | Urdu     | Near Noorani Masjid |
+      | Syed Usman  | English  | Batawadi            |
+      | Syed Siddiq | Kannada  | Banglore            |
 
   @delete_place @regression
   Scenario: Successfully deleting the added place using the deletePlaceAPI
