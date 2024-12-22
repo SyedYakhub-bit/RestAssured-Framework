@@ -9,6 +9,7 @@ public class LoginWebsite {
         Response response= given().log().all().when().get("locatorspractice/").then().log()
                 .all().assertThat().statusCode(200).extract().response();
         System.out.println(response);
+        System.out.println("To Check branching");
 
     }
 }
